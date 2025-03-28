@@ -1,0 +1,27 @@
+body {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.card {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.modal {
+  backdrop-filter: blur(3px);
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #86b7fe;
+}
